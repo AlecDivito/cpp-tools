@@ -1,0 +1,22 @@
+/******************************************************************************
+ *
+ * ${filename}.cpp
+ * Alec Divito
+ * divito.alec@gmail.com
+ * ${date}
+ * {description}
+ *
+ *****************************************************************************/
+
+#include "${filename}.h"
+
+${filename}::${filename}()
+{
+    // ctor
+}
+
+
+${filename}::~${filename}()
+{
+    // dtor
+}

@@ -1,0 +1,20 @@
+#pragma once
+
+/******************************************************************************
+ *
+ * ${filename}.cpp
+ * Alec Divito
+ * divito.alec@gmail.com
+ * ${date}
+ * {description}
+ *
+ *****************************************************************************/
+
+class ${filename}
+{
+    public:
+       ${filename}();
+       virtual ~${filename}();
+    protected:
+    private:
+};
