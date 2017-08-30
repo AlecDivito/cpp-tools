@@ -2,7 +2,7 @@
 
 /******************************************************************************
  *
- * ${filename}.cpp
+ * ${filename}.h
  * Alec Divito
  * divito.alec@gmail.com
  * ${date}

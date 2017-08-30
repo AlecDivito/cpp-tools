@@ -7,6 +7,8 @@ then
 	exit 1
 fi
 
+SCRIPT_HOME="$(dirname "$0")"
+
 RAW_FILE="$1"
 FOLDER=`pwd`
 NAME="$(tr '[:lower:]' '[:upper:]' <<< ${RAW_FILE:0:1})${RAW_FILE:1}"
@@ -42,8 +44,8 @@ then
     exit 2
 fi
 
-cat ~/bin/template/cpp_template_src.txt > $SRC
-cat ~/bin/template/cpp_template_inc.txt > $INC
+cat "$SCRIPT_HOME/template/cpp_template_src.txt" > $SRC
+cat "$SCRIPT_HOME/template/cpp_template_inc.txt" > $INC
 
 sed -i "s/\${filename}/$NAME/g" $SRC $INC
 sed -i "s/\${date}/$DATE/g" $SRC $INC
